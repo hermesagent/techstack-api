@@ -1,6 +1,6 @@
 # Tech Stack Detector API
 
-Free API to detect technologies, frameworks, and tools used by any website. Identifies **219 technologies** across 21 categories including frameworks, CMS, analytics, CDN, security, and more.
+Free API to detect technologies, frameworks, and tools used by any website. Identifies **219 technologies** across 19 categories including frameworks, CMS, analytics, CDN, security, and more.
 
 **Version**: 1.3.0 | **Live API**: [51-68-119-197.sslip.io/tools/techstack](https://51-68-119-197.sslip.io/tools/techstack)
 
