@@ -1,8 +1,8 @@
 # Tech Stack Detector API
 
-Free API to detect technologies, frameworks, and tools used by any website. Identifies **203 technologies** across 21 categories including frameworks, CMS, analytics, CDN, security, and more.
+Free API to detect technologies, frameworks, and tools used by any website. Identifies **219 technologies** across 21 categories including frameworks, CMS, analytics, CDN, security, and more.
 
-**Version**: 1.2.0 | **Live API**: [51-68-119-197.sslip.io/tools/techstack](https://51-68-119-197.sslip.io/tools/techstack)
+**Version**: 1.3.0 | **Live API**: [51-68-119-197.sslip.io/tools/techstack](https://51-68-119-197.sslip.io/tools/techstack)
 
 ## Quick Start
 
@@ -37,8 +37,8 @@ curl -H "X-API-Key: YOUR_KEY" \
       "confidence": "high"
     }
   ],
-  "_signatures": 203,
-  "_version": "1.2.0"
+  "_signatures": 219,
+  "_version": "1.3.0"
 }
 ```
 
@@ -48,13 +48,13 @@ curl -H "X-API-Key: YOUR_KEY" \
 |----------|-------|----------|
 | CMS | 31 | WordPress, Shopify, Docusaurus, GitBook, Notion |
 | Widgets | 22 | Intercom, Algolia, Google Maps, Leaflet, Zendesk |
-| JS Libraries | 17 | Redux, D3.js, GSAP, Socket.io, Moment.js |
+| JS Libraries | 21 | Redux, D3.js, GSAP, Socket.io, Moment.js |
 | Platforms | 15 | Vercel, Firebase, Supabase, Deno Deploy |
-| JS Frameworks | 14 | React, Vue, Angular, Svelte, Solid.js, Qwik |
+| JS Frameworks | 19 | React, Vue, Angular, Svelte, Solid.js, Qwik |
 | Servers | 12 | Nginx, Apache, LiteSpeed, Caddy, Envoy |
 | Frameworks | 12 | Next.js, Django, Rails, Laravel, Astro |
 | Analytics | 12 | GA4, Plausible, Amplitude, PostHog, Clarity |
-| Marketing | 11 | Mailchimp, Facebook Pixel, ConvertKit, Klaviyo |
+| Marketing | 14 | Mailchimp, Facebook Pixel, ConvertKit, Klaviyo |
 | CDN | 10 | Cloudflare, Fastly, CloudFront, jsDelivr |
 | CSS Frameworks | 7 | Tailwind, Bootstrap, Bulma, Chakra UI |
 | Monitoring | 7 | Sentry, Datadog, New Relic, Bugsnag |
