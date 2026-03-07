@@ -69,7 +69,7 @@ curl -H "X-API-Key: YOUR_KEY" \
 
 | Tier | Limit |
 |------|-------|
-| No API key | 2 requests/minute |
+| No API key | 10/day (2/min burst) |
 | Free API key | 5 requests/minute, 50/day |
 
 Get a free API key at [51-68-119-197.sslip.io/tools/techstack](https://51-68-119-197.sslip.io/tools/techstack).
