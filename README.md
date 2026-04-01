@@ -2,17 +2,17 @@
 
 Free API to detect technologies, frameworks, and tools used by any website. Identifies **219 technologies** across 19 categories including frameworks, CMS, analytics, CDN, security, and more.
 
-**Version**: 1.3.0 | **Live API**: [51-68-119-197.sslip.io/tools/techstack](https://51-68-119-197.sslip.io/tools/techstack)
+**Version**: 1.3.0 | **Live API**: [hermesforge.dev/tools/techstack](https://hermesforge.dev/tools/techstack)
 
 ## Quick Start
 
 ```bash
 # Detect technologies on a website
-curl "https://51-68-119-197.sslip.io/api/techstack?url=https://github.com"
+curl "https://hermesforge.dev/api/techstack?url=https://github.com"
 
 # With API key for higher limits
 curl -H "X-API-Key: YOUR_KEY" \
-  "https://51-68-119-197.sslip.io/api/techstack?url=https://shopify.com"
+  "https://hermesforge.dev/api/techstack?url=https://shopify.com"
 ```
 
 ## Example Response
@@ -42,10 +42,10 @@ curl -H "X-API-Key: YOUR_KEY" \
 }
 ```
 
-## Technology Categories (21)
+## Technology Categories (19)
 
 | Category | Count | Examples |
-|----------|-------|----------|
+|----------|-------|---------|
 | CMS | 31 | WordPress, Shopify, Docusaurus, GitBook, Notion |
 | Widgets | 22 | Intercom, Algolia, Google Maps, Leaflet, Zendesk |
 | JS Libraries | 21 | Redux, D3.js, GSAP, Socket.io, Moment.js |
@@ -64,23 +64,29 @@ curl -H "X-API-Key: YOUR_KEY" \
 | E-commerce | 4 | WooCommerce, Magento, BigCommerce |
 | Auth | 4 | Auth0, Firebase Auth, Clerk, Supabase Auth |
 | Optimization | 4 | Cloudinary, Imgix, Lazy Load |
+| Hosting | 3 | GitHub Pages, Netlify, Cloudflare Pages |
 
 ## Rate Limits
 
-| Tier | Limit |
-|------|-------|
-| No API key | 10/day (2/min burst) |
-| Free API key | 5 requests/minute, 50/day |
+| Tier | Rate | Daily | Monthly | Price |
+|------|------|-------|---------|-------|
+| No API key | 1/2 min | 10 | — | Free |
+| Anonymous key (no email) | 1/2 min | 20 | — | Free |
+| Free key (email verified) | 5/min | 50 | 500 | Free |
+| Starter | 10/min | 200 | 2,000 | $4/30 days |
+| Pro | 30/min | 1,000 | 10,000 | $9/30 days |
+| Business | 60/min | 5,000 | 50,000 | $29/30 days |
 
-Get a free API key at [51-68-119-197.sslip.io/tools/techstack](https://51-68-119-197.sslip.io/tools/techstack).
+Get an API key at [hermesforge.dev/api/keys](https://hermesforge.dev/api/keys) — no credit card required for free tiers.
 
 ## Use Cases
 
-- **Competitive analysis** - See what tech your competitors use
-- **Lead generation** - Find companies using specific technologies
-- **Market research** - Understand technology adoption trends
-- **Security auditing** - Identify outdated or vulnerable tech stacks
-- **Sales intelligence** - Target prospects based on their tech stack
+- **Competitive analysis** — See what tech your competitors use
+- **Lead generation** — Find companies using specific technologies
+- **Market research** — Understand technology adoption trends
+- **Security auditing** — Identify outdated or vulnerable tech stacks
+- **Sales intelligence** — Target prospects based on their tech stack
+- **AI agent pipelines** — Enrich web research with technology context
 
 ## Other APIs by Hermes
 
@@ -88,13 +94,11 @@ Get a free API key at [51-68-119-197.sslip.io/tools/techstack](https://51-68-119
 |-----|-------------|
 | [Dead Link Checker](https://github.com/hermesagent/dead-link-checker) | Find broken links on any website |
 | [Screenshot API](https://github.com/hermesagent/screenshot-api) | Capture full-page website screenshots |
-| [SSL Certificate Checker](https://51-68-119-197.sslip.io/tools/ssl) | Validate SSL certificates |
-| [SEO Analyzer](https://51-68-119-197.sslip.io/tools/seo) | Analyze on-page SEO factors |
-| [Performance Audit](https://51-68-119-197.sslip.io/tools/performance) | Page load speed analysis |
+| [Chart Rendering API](https://github.com/hermesagent/chart-rendering-api-visual-reporting-os) | Render Chart.js charts to PNG/JPEG |
 
 ## OpenAPI Spec
 
-Available at: [/openapi/techstack](https://51-68-119-197.sslip.io/openapi/techstack)
+Available at: [hermesforge.dev/openapi/techstack](https://hermesforge.dev/openapi/techstack)
 
 ## License
 
